@@ -1,0 +1,48 @@
+:root {
+    --linkthreeandtwo: green;
+    --linkone:orange;
+    --readme:crimson;
+
+}
+
+
+header {
+    color: #fff;
+    background-color: #1a1a1a
+}
+a {
+    text-decoration: none;
+}
+header h1 {
+    font-family: monospace, serif, sans-serif;
+    font-size: 4em;
+}
+.buisness {
+    color: var(--linkone);
+
+}
+header a  {
+    color: #fff;
+    cursor: pointer;
+}
+header nav ul li:nth-child(1) {
+    background-color: var(--linkone);
+    padding: 5px 10px;
+    border-radius: 2px;
+
+}header nav ul li:nth-child(2), header nav ul li:nth-child(3) {
+    background-color: var(--linkthreeandtwo);
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+main h1, aside h2 {
+    color: var(--linkthreeandtwo);
+}
+footer :nth-child(1) {
+    color: var(--readme);
+    text-decoration: underline;
+}
+footer :nth-child(2) {
+    color: var(--linkthreeandtwo);
+    text-decoration: underline;
+}
