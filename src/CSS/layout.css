@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+   
 
 }
 body, html {
@@ -32,11 +32,10 @@ header > div {
 .slogan {
     height: 10%;
 }header >div {
-    height: 80%;
+    height: 75%;
     margin-left: 20%;
 }
-header 
-nav {
+header nav {
     height: 5%;
     width: 30%;
 }
@@ -55,6 +54,7 @@ main {
     width: 100%;
     height: 100%;
     justify-content: center;
+    padding: 2% 0% 5% 0%;
 }
 div.otherthan {
     display: grid;
@@ -62,6 +62,18 @@ div.otherthan {
     gap: 3% ;
     justify-items: center;
     grid-template-columns: repeat(3, 29%);
-    grid-template-rows: auto auto;
+    grid-template-rows: repeat(2, auto);
 
 }
+.footer-container {
+padding: 2% 0% 1% 0%;
+width: 100%;
+}
+footer.ftr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 0% 3%;
+    justify-items: center;
+}
+

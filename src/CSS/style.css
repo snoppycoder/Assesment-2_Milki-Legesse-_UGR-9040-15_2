@@ -1,48 +1,62 @@
 :root {
-    --linkthreeandtwo: green;
-    --linkone:orange;
+    --inactive: green;
+    --active:orange;
     --readme:crimson;
+    --main-background-color: #5f5f5f;
 
 }
+.active {
+    background-color: var(--active);
 
+}
+.inactive {
+    background-color: var(--inactive);
+}
 
 header {
     color: #fff;
-    background-color: #1a1a1a
+    background-color: var(--main-background-color);
 }
 a {
     text-decoration: none;
 }
 header h1 {
     font-family: monospace, serif, sans-serif;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 .buisness {
-    color: var(--linkone);
+    color: var(--active);
 
 }
 header a  {
     color: #fff;
     cursor: pointer;
 }
-header nav ul li:nth-child(1) {
-    background-color: var(--linkone);
+header nav ul li {
+    background-color: var(--inactive);
     padding: 5px 10px;
     border-radius: 2px;
-
-}header nav ul li:nth-child(2), header nav ul li:nth-child(3) {
-    background-color: var(--linkthreeandtwo);
-    padding: 5px 10px;
-    border-radius: 2px;
+}
+header nav ul li a:active header nav u li header nav, nav ul li a:hover {
+    background-color: var(--active);
 }
 main h1, aside h2 {
-    color: var(--linkthreeandtwo);
+    color: var(--inactive);
 }
-footer :nth-child(1) {
+main footer :nth-child(1) {
     color: var(--readme);
     text-decoration: underline;
 }
-footer :nth-child(2) {
-    color: var(--linkthreeandtwo);
+main footer :nth-child(2) {
+    color: var(--inactive);
     text-decoration: underline;
+}
+.footer-container {
+    color: white;
+    background-color: var(--main-background-color);
+}
+::-webkit-scrollbar {
+    visibility:hidden;
+}address {
+    padding-top: 5%;
 }
