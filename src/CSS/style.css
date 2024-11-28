@@ -182,6 +182,12 @@ address {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
+.active {
+    background-color: var(--accent);
+}
+::-webkit-scrollbar {
+   display: none;
+}
 
 @media (max-width: 768px) {
     header {
