@@ -8,25 +8,26 @@
     <title>About Business Box</title>
 </head>
 <body>
-    <header>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
         <span class="slogan">Empowering Your Business Success</span>
         <div>
            <span class="main-header">
             <h1><span class="business">Business</span> Box</h1>
            </span>
-           <nav>
+           <nav role="navigation" aria-label="Main Navigation">
             <ul>
               <li><a href="../../index.html">Home</a></li>
-              <li class="active"><a href="about.html">About Us</a></li>
+              <li><a href="about.html" aria-current="page">About Us</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </nav>
         </div>
     </header>
-    <main>
+    <main id="main-content" role="main">
       <section class="about-grid">
-        <article>
-          <h2>About Business Box</h2>
+        <article aria-labelledby="about-business-box">
+          <h2 id="about-business-box">About Business Box</h2>
             <p>
               Business Box is a leading provider of comprehensive business solutions, dedicated to helping companies of all sizes achieve their full potential. With our innovative approaches and expert team, we empower businesses to thrive in today's competitive landscape.
             </p>
@@ -34,12 +35,12 @@
               Founded in 2010, Business Box has grown from a small consulting firm to a global leader in business transformation. Our success is built on a foundation of trust, expertise, and a commitment to delivering measurable results for our clients. We believe that every business has unique challenges and opportunities, and we tailor our services to meet those specific needs.
           </p>
         </article>
-        <aside>
+        <aside role="complementary" aria-label="Quick Links and Partners">
           <h2>Quick Links</h2>
           <ul>
               <li><a href="../../index.html">Home</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="about.html">About</a></li>
+              <li><a href="about.html" aria-current="page">About</a></li>
           </ul>
           <h2>Our Partners</h2>
             <ul>
@@ -54,8 +55,8 @@
               </li>
             </ul>
         </aside>
-        <article>
-          <h2>Our Mission</h2>
+        <article aria-labelledby="our-mission">
+          <h2 id="our-mission">Our Mission</h2>
           <p>
             At Business Box, our mission is to empower businesses with the tools, knowledge, and strategies they need to succeed in an ever-changing market. We are committed to delivering innovative solutions that drive growth, increase efficiency, and create lasting value for our clients.
           </p>
@@ -66,7 +67,7 @@
       </section>
     </main>
     <div class="footer-container">
-      <footer class="ftr">
+      <footer class="ftr" role="contentinfo">
           <article>
               <h2>Our Services</h2>
               <ul>
@@ -91,8 +92,8 @@
                       Metropolis, BZ 12345
                   </p>
                   <p>
-                      <strong>Phone:</strong> (555) 123-4567<br>
-                      <strong>Email:</strong> <a href="mailto:info@businessbox.com">info@businessbox.com</a>
+                      <strong>Phone:</strong> <a href="tel:+15551234567" aria-label="Call us at (555) 123-4567">(555) 123-4567</a><br>
+                      <strong>Email:</strong> <a href="mailto:info@businessbox.com" aria-label="Email us at info@businessbox.com">info@businessbox.com</a>
                   </p>
                   <p>
                       <strong>Hours:</strong> Monday - Friday: 9:00 AM - 5:00 PM<br>

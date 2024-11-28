@@ -8,50 +8,51 @@
     <link rel="stylesheet" href="src/CSS/style.css">
 </head>
 <body>
-    <header>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header role="banner">
         <span class="slogan">Empowering Your Business Success</span>
         <div>
            <span class="main-header">
             <h1><span class="business">Business</span> Box</h1>
            </span>
-           <nav>
+           <nav role="navigation" aria-label="Main Navigation">
             <ul>
-              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index.html" aria-current="page">Home</a></li>
               <li><a href="src/html/about.html">About Us</a></li>
               <li><a href="src/html/contact.html">Contact Us</a></li>
             </ul>
           </nav>
         </div>
     </header>
-    <main>
+    <main id="main-content" role="main">
         <div class="otherthan"> 
-            <section>
-            <h1>Innovative Solutions</h1>
+            <section aria-labelledby="innovative-solutions">
+            <h2 id="innovative-solutions">Innovative Solutions</h2>
             <h3>Transforming Businesses</h3>
-            <img src="src/Images/image1.jpg" alt="Innovative business solutions">
+            <img src="src/Images/image1.jpg" alt="Team collaborating on innovative business solutions" width="300" height="200">
             <article>
                 <p>
                     At Business Box, we specialize in providing cutting-edge solutions that help businesses thrive in today's competitive market. Our team of experts works tirelessly to develop strategies that drive growth, increase efficiency, and boost your bottom line.
                 </p>
                 <footer>
-                    <a href="">Read more</a> | <a href="">Comments</a> <span class="date">Mar 16, 2024</span>
+                    <a href="#" aria-label="Read more about Innovative Solutions">Read more</a> | <a href="#" aria-label="View comments on Innovative Solutions">Comments</a> <span class="date">Mar 16, 2024</span>
                 </footer>
             </article>
         </section>
-        <section>
-            <h1>Expert Consulting</h1>
+        <section aria-labelledby="expert-consulting">
+            <h2 id="expert-consulting">Expert Consulting</h2>
             <h3>Guiding Your Success</h3>
-            <img src="src/Images/image3.jpg" alt="Expert business consulting">
+            <img src="src/Images/image3.jpg" alt="Business consultant advising a client" width="300" height="200">
             <article>
                 <p>
                     Our experienced consultants offer invaluable insights and guidance to help your business navigate challenges and seize opportunities. From strategic planning to operational optimization, we're here to support your journey to success.
                 </p>
                 <footer>
-                    <a href="">Read more</a> | <a href="">Comments</a> <span class="date">Mar 18, 2024</span>
+                    <a href="#" aria-label="Read more about Expert Consulting">Read more</a> | <a href="#" aria-label="View comments on Expert Consulting">Comments</a> <span class="date">Mar 18, 2024</span>
                 </footer>
             </article>
         </section>
-        <aside>
+        <aside role="complementary" aria-label="Quick Links and Partners">
             <h2>Quick Links</h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -71,36 +72,36 @@
                 </li>
               </ul>
         </aside>
-        <section>
-            <h1>Digital Transformation</h1>
+        <section aria-labelledby="digital-transformation">
+            <h2 id="digital-transformation">Digital Transformation</h2>
             <h3>Embracing the Future</h3>
-            <img src="src/Images/image2.jpg" alt="Digital transformation services">
+            <img src="src/Images/image4.jpg" alt="Digital transformation process visualization" width="300" height="200">
             <article>
                 <p>
                     Stay ahead of the curve with our digital transformation services. We help businesses leverage the latest technologies to streamline processes, enhance customer experiences, and drive innovation across all aspects of their operations.
                 </p>
                 <footer>
-                    <a href="">Read more</a> | <a href="">Comments</a> <span class="date">Mar 20, 2024</span>
+                    <a href="#" aria-label="Read more about Digital Transformation">Read more</a> | <a href="#" aria-label="View comments on Digital Transformation">Comments</a> <span class="date">Mar 20, 2024</span>
                 </footer>
             </article>
         </section>
-        <section>
-            <h1>Sustainable Growth</h1>
+        <section aria-labelledby="sustainable-growth">
+            <h2 id="sustainable-growth">Sustainable Growth</h2>
             <h3>Building Long-term Success</h3>
-            <img src="src/Images/image4.jpg" alt="Sustainable business growth">
+            <img src="src/Images/image2.jpg" alt="Graph showing sustainable business growth" width="300" height="200">
             <article>
                 <p>
                     Our sustainable growth strategies focus on creating long-term value for your business. We help you implement eco-friendly practices, optimize resource utilization, and develop resilient business models that stand the test of time.
                 </p>
                 <footer>
-                    <a href="">Read more</a> | <a href="">Comments</a> <span class="date">Mar 22, 2024</span>
+                    <a href="#" aria-label="Read more about Sustainable Growth">Read more</a> | <a href="#" aria-label="View comments on Sustainable Growth">Comments</a> <span class="date">Mar 22, 2024</span>
                 </footer>
             </article>
         </section>
     </div>
     </main>
     <div class="footer-container">
-        <footer class="ftr">
+        <footer class="ftr" role="contentinfo">
             <article>
                 <h2>Our Services</h2>
                 <ul>
@@ -125,8 +126,8 @@
                         Metropolis, BZ 12345
                     </p>
                     <p>
-                        <strong>Phone:</strong> (555) 123-4567<br>
-                        <strong>Email:</strong> <a href="mailto:info@businessbox.com">info@businessbox.com</a>
+                        <strong>Phone:</strong> <a href="tel:+15551234567" aria-label="Call us at (555) 123-4567">(555) 123-4567</a><br>
+                        <strong>Email:</strong> <a href="mailto:info@businessbox.com" aria-label="Email us at info@businessbox.com">info@businessbox.com</a>
                     </p>
                     <p>
                         <strong>Hours:</strong> Monday - Friday: 9:00 AM - 5:00 PM<br>
