@@ -4,10 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/layout.css">
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Contact Business Box</title>
 </head>
 <body>
-    
+    <header>
+        <span class="slogan">Empowering Your Business Success</span>
+        <div>
+           <span class="main-header">
+            <h1><span class="business">Business</span> Box</h1>
+           </span>
+           <nav>
+            <ul>
+              <li><a href="../../index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <section class="contact-section">
+        <div>
+          <h1>Contact Us</h1>
+          <p>We're here to help you take your business to the next level. Whether you have questions about our services or want to discuss a potential partnership, our team is ready to assist you. Reach out to us using the form below or through our contact information.</p>
+        </div>
+        <form action="" method="POST">
+          <h2>Send Us a Message</h2>
+          <div class="form_">
+            <label for="name_input">Name (Required)</label>
+            <input type="text" required id="name_input" name="name">
+            <label for="email_input">Email (Required)</label>
+            <input type="email" required id="email_input" name="email">
+            <label for="phone_input">Phone (Optional)</label>
+            <input type="tel" id="phone_input" name="phone">
+            <label for="message_input">Message (Required)</label>
+            <textarea id="message_input" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <div class="footer-container">
+      <footer class="ftr">
+          <article>
+              <h2>Our Services</h2>
+              <ul>
+                  <li>Business Consulting</li>
+                  <li>Digital Transformation</li>
+                  <li>Financial Planning</li>
+                  <li>Market Analysis</li>
+              </ul>
+          </article>
+          <article>
+              <h2>Visit Us</h2>
+              <p>
+                  Our office is conveniently located in the heart of Metropolis. We welcome you to schedule an appointment and discuss how we can help your business thrive.
+              </p>
+          </article>
+          <article class="footer-contact">
+              <h2>Contact Information</h2>
+              <address>
+                  <p>
+                      <strong>Business Box Headquarters</strong><br>
+                      123 Innovation Street<br>
+                      Metropolis, BZ 12345
+                  </p>
+                  <p>
+                      <strong>Phone:</strong> (555) 123-4567<br>
+                      <strong>Email:</strong> <a href="mailto:info@businessbox.com">info@businessbox.com</a>
+                  </p>
+                  <p>
+                      <strong>Hours:</strong> Monday - Friday: 9:00 AM - 5:00 PM<br>
+                      Saturday: 10:00 AM - 3:00 PM<br>
+                      Sunday: Closed
+                  </p>
+              </address>
+          </article>
+      </footer>
+    </div>
 </body>
 </html>
