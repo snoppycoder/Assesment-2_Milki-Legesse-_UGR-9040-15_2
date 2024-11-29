@@ -108,7 +108,8 @@ a:hover {
 .footer-container {
     background-color: var(--primary);
     color: white;
-    padding: 2rem 0;
+   
+ 
 }
 
 .ftr {
@@ -153,6 +154,7 @@ address {
 .form_ textarea {
     padding: 0.5rem;
     border: 1px solid var(--secondary);
+    resize: vertical;
     border-radius: 4px;
     margin-top: 0.25rem;
 }
@@ -187,6 +189,18 @@ address {
 }
 ::-webkit-scrollbar {
    display: none;
+}
+.copyright {
+    position: relative;
+    border-top: solid 1px #333;
+
+}
+.copyright > p {
+    display: inline;
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 @media (max-width: 768px) {
