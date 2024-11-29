@@ -108,7 +108,7 @@ a:hover {
 .footer-container {
     background-color: var(--primary);
     color: white;
-   
+ 
  
 }
 
@@ -116,6 +116,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
+    
 }
 
 .ftr h2 {
@@ -192,7 +193,6 @@ address {
 }
 .copyright {
     position: relative;
-    border-top: solid 1px #333;
 
 }
 .copyright > p {
@@ -216,6 +216,11 @@ address {
 
     header nav ul li {
         margin-bottom: 0.5rem;
+    } .ftr {
+        margin-bottom: 2em;
+    }
+    .copyright {
+        font-size: 0.8em;
     }
 
     .otherthan,
